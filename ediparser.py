@@ -12,7 +12,7 @@ def open_file_edi():
 
 def remove_chars(file):
     """removing new lines and cariages"""
-    chars_to_r = ["\n", "\r"]
+    chars_to_r = ["\n", "\\"]
     for i in range(len(file)):
         if file[i] in chars_to_r:
             file = file.replace(file[i], " ")
