@@ -11,11 +11,16 @@ def open_file_edi():
 
 
 def remove_chars(file):
-    chars_to_r = ["\n","~", "\\"]
+    """removing new lines and cariages"""
+    chars_to_r = ["\n", "\r"]
     for i in range(len(file)):
         if file[i] in chars_to_r:
             file = file.replace(file[i], " ")
-    return file 
+    return file
+
+def split_line(file):
+    """ splitting based on delimeter"""
+
 
             
 
