@@ -1,4 +1,4 @@
-##this program parses throuh the edi
+##this program parses through the edi file
 ### this file is for personal use so i hard coded some aspects
 
 
